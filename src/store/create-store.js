@@ -1,3 +1,3 @@
 import { createStore,combineReducers } from "redux";
-import { test } from "./reduser";
-export const store=createStore(combineReducers({te:test}))
+import { test,test1 } from "./reduser";
+export const store=createStore(combineReducers({te:test,se:test1}))
